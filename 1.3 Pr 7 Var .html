@@ -1,0 +1,26 @@
+<body>
+<script>
+str=prompt("Введите A","0")
+a=parseInt(str)
+str=prompt("Введите B","0")
+b=parseInt(str)
+var num = 0
+var f=0
+for (i=a; i<=b; i++)
+ {
+  for (j=1; j<=i; j++)
+  { 
+    if (i%j == 0){
+      num+=1
+                 }}
+    if (num == 2) 
+    	{
+	 f+=1;
+	 num=0;
+	}
+    else{num=0}
+
+}
+alert(f)
+</script>
+</body>

@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+mm=new Array ('ян','ф','мар','ап','май','июнь','июль','авг','сен','окт','ноя','дек');
+dnn=new Array('воск','пн','вт','ср','чт','пт','сб');
+
+td=new Date();
+
+g=td.getFullYear();
+
+m=td.getMonth();
+
+td1=new Date(g,m+10,0);
+
+g=td1.getFullYear();
+
+m=td1.getMonth();
+
+d=td1.getDate();
+
+dn=td1.getDay();
+
+alert(d+' '+ mm[m]+' '+g+' года '+ dnn[dn]);
+</script>
+</body>
+</html>
